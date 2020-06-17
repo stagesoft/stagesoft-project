@@ -16,5 +16,32 @@ cuems will generate new projects from scratch like:
 
 * [osc_control](https://github.com/stagesoft/osc_control)
 * [libmtcmaster](https://github.com/stagesoft/libmtcmaster)
+* [cuems-audioplayer](https://github.com/stagesoft/cuems-audioplayer)
 
 You can find our newest repositories at: [Stagesoft org page](https://github.com/stagesoft).
+
+And our packages repository at: [Stagesoft package repo](https://repo.stagelab.net)
+
+(debian 10 packages, amd64, dbgsym and source)
+
+Instructions to add the repo to debian 10 buster:
+
+First add the key used to sing the packages & repo:
+
+`wget -q -O - https://repo.stagelab.net/repo.stagelab.key |sudo apt-key add -`
+
+Then add the repo to a new sources.list.d/ file:
+
+`sudo wget -O /etc/apt/sources.list.d/stagelab.list https://repo.stagelab.net/stagelab.list`
+
+Or manually:
+`deb https://repo.stagelab.net/debian buster main`
+`deb-src https://repo.stagelab.net/debian buster main`
+
+list of packages curretly on the repo: (work in progress, unstable packages at the moment for testing purpouses)
+* cuems-audioplayer
+* libmtcmaster
+* xjadeo
+* jackd2
+* libossia
+* cmake
