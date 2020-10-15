@@ -14,7 +14,8 @@ cuems will try to reuse and improve other open source projects such as:
 
 cuems will generate new projects from scratch like:
 
-* [osc_control](https://github.com/stagesoft/osc_control)
+* [cuems-engine](https://github.com/stagesoft/cuems-engine)
+* [cuems_editor](https://github.com/stagesoft/cuems_editor)
 * [libmtcmaster](https://github.com/stagesoft/libmtcmaster)
 * [cuems-audioplayer](https://github.com/stagesoft/cuems-audioplayer)
 
