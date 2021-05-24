@@ -46,3 +46,11 @@ list of packages curretly on the repo: (work in progress, unstable packages at t
 * jackd2
 * libossia
 * cmake
+ 
+ 
+.
+ 
+ 
+ 
+This project it's funded by:
+![funded_by_logos](https://dev.stagelab.net/logos/logos_finan.png)
