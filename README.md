@@ -2,7 +2,7 @@
 
 **cuems** suite is a new open source software project from [Stagelab](https://www.stagelab.net) and [bTactic](https://www.btactic.com).
 
-![Stagelab logo](https://www.stagelab.net/wp-content/uploads/2017/02/logo_stagelab_x80_gris.png) ![bTactic logo](https://www.btactic.com/wp-content/uploads/2018/10/logo-btactic.png)
+![Stagelab logo]([https://www.stagelab.net/wp-content/uploads/2017/02/logo_stagelab_x80_gris.png](https://stagelab.coop/wp-content/uploads/2021/05/stagelabcoop_head.png)) ![bTactic logo](https://www.btactic.com/wp-content/uploads/2018/10/logo-btactic.png)
 
 **cuems** suite will not only manage cues but also network connected external devices.
 
