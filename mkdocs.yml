@@ -24,12 +24,8 @@ theme:
       icon: material/weather-night
       name: Switch to system preference
 
-hide:
-  - navigation
-
 plugins:
   - search
-  - markdown-exec
 
 markdown_extensions:
   - pymdownx.snippets:
