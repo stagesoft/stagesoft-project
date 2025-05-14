@@ -1,0 +1,37 @@
+site_name: Stagesoft - FormitGo
+site_url: https://stagesoft.github.io
+repo_url: https://github.com/stagesoft/stagesoft-project
+
+theme:
+  name: material
+  palette:
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: teal
+    accent: purple
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    accent: lime
+    toggle:
+      icon: material/weather-night
+      name: Switch to system preference
+
+hide:
+  - navigation
+
+plugins:
+  - search
+  - markdown-exec
+
+markdown_extensions:
+  - pymdownx.snippets:
+      base_path: [!relative $config_dir]
+      check_paths: true
